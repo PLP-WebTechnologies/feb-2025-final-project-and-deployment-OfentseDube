@@ -1,0 +1,121 @@
+/* Responsive styles for the Business Blog - Nature Theme */
+
+/* Common nature-inspired colors and effects */
+:root {
+    --forest-green: #2B5329;
+    --leaf-green: #91B28A;
+    --sky-blue: #A5CFE3;
+    --earth-brown: #8B6B4A;
+    --sunset-orange: #F4A460;
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+        background: linear-gradient(to bottom, var(--sky-blue), var(--leaf-green));
+        color: var(--forest-green);
+    }
+
+    header {
+        background-color: rgba(43, 83, 41, 0.9);
+        color: white;
+        padding: 10px;
+        box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    footer {
+        background-color: var(--earth-brown);
+        color: white;
+        padding: 10px;
+    }
+
+    nav {
+        display: block;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 8px;
+    }
+
+    .container {
+        padding: 15px;
+        background: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+}
+
+/* Tablet styles */
+@media (min-width: 601px) and (max-width: 900px) {
+    body {
+        font-size: 16px;
+        background: linear-gradient(135deg, var(--sky-blue), var(--leaf-green));
+        color: var(--forest-green);
+    }
+
+    header {
+        background-color: rgba(43, 83, 41, 0.9);
+        color: white;
+        padding: 15px;
+        box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    footer {
+        background-color: var(--earth-brown);
+        color: white;
+        padding: 15px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 12px;
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+    }
+
+    .container {
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.85);
+        border-radius: 15px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 901px) {
+    body {
+        font-size: 18px;
+        background: linear-gradient(170deg, var(--sky-blue), var(--leaf-green));
+        color: var(--forest-green);
+    }
+
+    header {
+        background-color: rgba(43, 83, 41, 0.9);
+        color: white;
+        padding: 20px;
+        box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    footer {
+        background-color: var(--earth-brown);
+        color: white;
+        padding: 20px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 15px;
+        -webkit-backdrop-filter: blur(8px);
+        backdrop-filter: blur(8px);
+    }
+
+    .container {
+        padding: 30px;
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 20px;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    }
+}

@@ -1,0 +1,75 @@
+/* Main styles for the blog */
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    background: #ffffff;
+    border-bottom: 2px solid #dddddd;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background: #f5f5f5;
+    color: #333333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+footer {
+    background: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 2px solid #dddddd;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+h1, h2, h3 {
+    color: #000000;
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+}
+
+p {
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+.small-text {
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
